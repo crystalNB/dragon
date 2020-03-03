@@ -23,13 +23,22 @@ p {
  float: center;
 }
 
-.navbar {
+.dragonfinder {
     overflow: hidden;
     background-color:#B03A2E;
  
     
       
   }
+
+ .dragonfinder a {
+   float: left; 
+   display: round;
+   color:#CD6155;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 16px;
 
 li {
  
