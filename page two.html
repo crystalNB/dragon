@@ -9,11 +9,41 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="w3-bar w3-border w3-black">
-  <a href="https://crystalnb.github.io/dragon/allaboutdragons.html" class="w3-bar-item w3-button">Home</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-black">Next</a>
-  <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-black">back</a>
-</div>
+ <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
 
 <div class="jumbotron text-center">
   <h1>Wings of Fire</h1>
