@@ -10,22 +10,22 @@ background-image: url("https://github.com/crystalNB/dragon/blob/master/3-31310_b
 }
 
 h1 {
- border: 5px outset red;
+ border: 5px outset grey;
  font-style; italic;
  font-size: 50px;
- color:#C41313;
+ color:#D8D9DA;
  float: center;
 }
 
 
 p {
- color: #E45B5B;
+ color: #D8D9DA;
  float: center;
 }
 
 .dragonfinder {
     overflow: hidden;
-    background-color:#B03A2E;
+    background-color:#D8D9DA;
  
     
       
@@ -41,13 +41,13 @@ p {
    font-size: 16px;
 }
 .dragonfinder a:hover {
-  background-color:#FBD6F0;
-  color:#CD6155;
+  background-color:#D8D9DA;
+  color:#D8D9DA;
   }
 
 li {
  
- color:#F30707;
+ color:#D8D9DA7;
  float: center;
 }
  
